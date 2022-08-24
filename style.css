@@ -18,28 +18,28 @@ main{
 header{
     position: relative;
     width: 100%;
-    height: 80px;
-    /* background-color: forestgreen;   */
+    height: 100px;
+    background-color: forestgreen;  
     padding-top: 10px;
 }
 
 #nav-menu{
     margin: auto;
     width: 98%;
-    height: 60px;
+    height: 80px;
     display: flex;
-    /* background-color: aqua; */
+    background-color: aqua;
 }
 
 .menu-logo {
     width: 15%;
-    height: 60px;
-    /* background-color: blueviolet; */
+    height: 80px;
+    background-color: blueviolet;
 }
 
 .menu-logo img{
     width: 100%;
-    /* background-color: #ccc;   */
+    background-color: #ccc;  
     height: 100%;
     display: flex;
     margin: auto;
@@ -49,7 +49,7 @@ header{
     width: 40%;
     display: flex;
     justify-content: space-around;
-    /* background-color: chocolate; */
+    background-color: chocolate;
 }
 
 #menu-links ul {
@@ -57,41 +57,48 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* background-color: #fff; */
+    background-color: #fff;
 }
 
 #menu-links li a{
     color: #000;
+    font-size: 16px;
 }
 
-#menu-botoes{
+#menu-pesquisar{
     width: 22%;
     display: flex;
     align-items: center;
-    /* background-color: coral; */
+    background-color: coral;
 }
 
 .box-pesquisar{
-    position: absolute;
+    width: 100%;
     height: 40px;
     display: flex;
-    background-color: #0094C6;
-    border-radius: 40px;
+    justify-content: flex-end;
+    background-color: #001242;
+    border-radius: 5px;
 }
 
 .btn-pesquisar{
-    float: right;
     width: 40px;
     height: 40px;
-    border-radius: 50%;
-    background: #0094C6;
+    background: #001242;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: 2s;
+    border-radius: 5px;
+}
+
+.btn-pesquisar:hover{
+    background-color: #031d63;
+    transition: 2s;
 }
 
 .txt-pesquisar {
+    width: 100%;
     border: none;
     background: none;
     outline: none;
@@ -108,23 +115,22 @@ header{
     color: #fff;
 }
 
-.box-pesquisar:hover > .txt-pesquisar{
-    width: 240px;
+.box-pesquisar:hover .txt-pesquisar{
+    width: 230px;
     padding: 0 6px;
 }
 
 #box-botoes{
     width: 25%;
-    /* background-color: rgb(99, 24, 24); */
+    background-color: rgb(170, 170, 170);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
 #btn-entrar{
-    width: 25%;
+    width: 35%;
     text-align: center;
-    /* background-color: #000; */
 }
 
 #btn-entrar button{
@@ -132,8 +138,8 @@ header{
     width: 100%;
     padding: 10px;
     border-radius: 5px;
+    font-size: 16px;
     background-color: #0094C6;
-    /* text-transform: uppercase; */
     color: #fff;
 }
 
@@ -143,7 +149,7 @@ header{
 }
 
 #btn-cadastrar{
-    width: 35%;
+    width: 50%;
     text-align: center;
     /* background-color: #000; */
 }
@@ -156,6 +162,7 @@ header{
     background-color: #001242;
     /* text-transform: uppercase; */
     color: #fff;
+    font-size: 16px;
 }
 
 #btn-cadastrar button:hover{

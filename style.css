@@ -183,6 +183,8 @@ header{
     margin: auto;
     /* background-color: #fff; */
     font-size: 30px;
+    color: #001242;
+    border-bottom: 1px solid #001242;
 }
 
 /* Categoria Bio */
@@ -191,7 +193,7 @@ header{
     position: relative;
     width: 100%;
     /* background-color: brown; */
-    padding: 0% 5% 0% 3.5%;
+    /* padding: 0% 5% 0% 3.5%; */
     margin-bottom: 50px;
 }
 
@@ -201,11 +203,24 @@ header{
     float: left;
     /* background-color: rgb(172, 172, 172); */
     height: 400px;
+    padding: 0 30px;
 }
 
 .txt-categoria h3{
     font-size: 30px;
     text-align: center;
+}
+
+#cor-titulo-bio{
+    color: #008415;
+}
+
+#cor-titulo-exatas{
+    color: #002DA5;
+}
+
+#cor-titulo-humanas{
+    color: #B11600;
 }
 
 .txt-categoria p{
@@ -215,6 +230,17 @@ header{
     text-align: justify;
 }
 
+.fundo-slider-bio{
+    background: linear-gradient(0deg, rgba(1,0,15,0) 5%, #008415 5%, #008415 76%, rgba(255,255,255,1) 76%);
+}
+
+.fundo-slider-exatas{
+    background: linear-gradient(0deg, rgba(1,0,15,0) 5%, #002DA5 5%, #002DA5 76%, rgba(255,255,255,1) 76%);
+}
+
+.fundo-slider-humanas{
+    background: linear-gradient(0deg, rgba(1,0,15,0) 5%, #B11600 5%, #B11600 76%, rgba(255,255,255,1) 76%);
+}
 .img-categoria {
     width: 50%;
     /* background-color: #bcd100; */
@@ -257,6 +283,7 @@ header{
     max-height: 250px;
     margin-right: 10px;
     transition: transform 450ms;
+    margin-right: 15px;
   }
   
 .linha-poster:hover {

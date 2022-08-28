@@ -454,10 +454,11 @@ header {
 #left {
     width: 50%;
     height: 500px;
-    background-color: cyan;
+    /* background-color: cyan; */
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 25px;
+    text-align: justify;
 }
 
 #left h5 {
@@ -554,7 +555,7 @@ form input[type="submit"]:hover {
 #right {
     width: 50%;
     height: 500px;
-    background-color: #001242;
+    /* background-color: #001242; */
 }
 
 #right img {

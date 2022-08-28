@@ -171,7 +171,7 @@ header{
 
 /* Inicio Categorias */
 
-#titulo-categorias{
+.titulos{
     width: 100%;
     display: flex;
     align-items: center;
@@ -179,7 +179,7 @@ header{
     margin: 80px 0px;
 }
 
-#titulo-categorias h2{
+.titulos h2{
     margin: auto;
     /* background-color: #fff; */
     font-size: 30px;
@@ -356,4 +356,4 @@ header{
   
 #linha-poster-largo:hover {
     transform: scale(1.29);
-  }
+}

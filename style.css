@@ -164,7 +164,7 @@ header {
 }
 
 #imagem_topo img {
-    margin: auto;
+    margin-left: 35px;
     /* background-color: #000; */
 }
 
@@ -444,7 +444,7 @@ header {
 
 #pub{
     width: 100%;
-    height: 700px;
+    height: auto;
     display: flex;
     justify-content: space-evenly;
     /* background-color: #8C1F28; */
@@ -557,11 +557,99 @@ form input[type="submit"]:hover {
 }
 
 #right img {
-    width: 85%;
+    width: 100%;
+    height: 100%;
     margin-left: 10%;
-    height: 95%;
+    
 }
 
+/* Inicio Comentários */
+
+#container-slide{
+    width: 100%;
+    height: auto;
+    margin-bottom: 80px;
+    /* background-color: #008415; */
+}
+
+.slide-comentario{
+    width: 900px;
+    height: 400px;
+    overflow: hidden;
+    transition: all 0.4s;
+    /* background-color: #000; */
+    margin: auto;
+    
+}
+
+.slides-comentario{
+    width: 900px;
+    display: flex;
+}
+
+.image img{
+    width: 900px;
+    height: 320px;
+}
+
+#atual{
+    transition: all 2s;
+}
+
+.btn{
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.4s;
+    font-size: 1.7em;
+    /* background-color: #008415; */
+}
+
+.btn:hover{
+    transform: scale(1.5);
+}
+
+#voltar{
+    margin-top: 9%;
+    left: 5%;
+}
+
+#proximo{
+    margin-top: 9%;
+    right: 5%;
+}
+
+.balls{
+    position: absolute;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.balls div{
+    transition: all 0.5s;
+    border: 3px solid #0094C6;
+    padding: 6px;
+    border-radius: 50%;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.balls div:hover{
+    background-color: #0094C6;
+}
+
+.imgAtual{
+    transition: all 0.5s;
+    background-color: #0094C6;
+}
+
+/* Inicio Rodapé */
 footer{
     width: 100%;
     height: auto;

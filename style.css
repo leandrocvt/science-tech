@@ -216,6 +216,10 @@ header {
     text-align: center;
 }
 
+.txt-categoria p{
+    font-weight: 500;
+}
+
 #cor-titulo-bio {
     color: #008415;
 }

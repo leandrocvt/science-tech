@@ -8,13 +8,16 @@
     list-style: none;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
-
 }
 
 main {
     width: 100%;
     height: 900px;
     /* background-color: #ccc; */
+}
+
+body{
+    overflow-x: hidden;
 }
 
 header {

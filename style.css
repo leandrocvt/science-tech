@@ -12,7 +12,7 @@
 
 main {
     width: 100%;
-    height: 900px;
+    height: auto;
     /* background-color: #ccc; */
 }
 
@@ -55,7 +55,6 @@ header {
     display: flex;
     justify-content: space-evenly;
     /* background-color: chocolate; */
-
 }
 
 #menu-links ul {
@@ -138,14 +137,15 @@ header {
     display: flex;
     width: 100%;
     height: auto;
-    padding: 0% 5% 0% 3.5%;
-    /* background-color: #001242   ; */
+    padding: 8px;
+    /* background-color: #001242; */
 }
 
 #texto {
     display: block;
-    width: 50%;
-    /* background-color: green; */
+    width: 55%;
+    padding: 0% 5% 0% 2%; 
+    /* background-color: rgb(192, 216, 86); */
     height: auto;
 }
 
@@ -161,13 +161,13 @@ header {
 
 #imagem_topo {
     /* background-color: aqua; */
-    width: 50%;
+    width: 45%;
     height: auto;
     display: flex;
 }
 
 #imagem_topo img {
-    margin-left: 35px;
+    margin-left: 10px;
     /* background-color: #000; */
 }
 
@@ -657,42 +657,27 @@ form input[type="submit"]:hover {
 }
 
 /* Inicio Rodapé */
+
 footer{
     width: 100%;
-    height: auto;
+    height: 200px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
     background-color: #001242;
 }
-.sessoesfooter{
-    width: 30%;
-    height: auto;
-    /* background-color: rgb(42, 165, 52); */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
+
+.divisoes-rodape {
+    width: 27%;
+    background-color: bisque;
 }
 
-.sessoesfooter h4{
-    margin-bottom: 20px;
-    text-align: center;
-    /* background-color: #B11600; */
+.img-rodape{
+    width: 40%;
+    height: 100px;
+    background-color: black;
 }
 
-.informativo li{
-    margin-bottom: 10px;
-}
-.informativo li img{
-    margin-right: 10px;
-}
-
-.informativo a{
-    color: #fff;
-}
-
-#icons-footer{
-    width: 25px;
+.img-rodape img{
+    width: 100%;
+    height: 100%;
 }

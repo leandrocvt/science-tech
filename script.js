@@ -57,3 +57,16 @@ setInterval(() => {
         rolar = true
     }
 }, 8000)
+
+// menu
+
+function menuShow(){
+        let menuMobile = document.querySelector('.mobile-menu');
+        if (menuMobile.classList.contains('open')){
+           menuMobile.classList.remove('open');
+            document.querySelector('.icon').src = "icones/icons8-cardápio.svg";
+        } else {
+            menuMobile.classList.add('open');
+            document.querySelector('.icon').src = "icones/icons8-cardápio.svg";
+        }
+    }

@@ -9,7 +9,52 @@
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
 }
+/*opção de menu com dorpdown*/
 
+  
+  .nav-list li a, .nav-link {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .nav-list  li a:hover, .dropdown:hover .nav-link {
+    background-color: #ffffff;
+    border: #001242 1px solid;
+  }
+  .nav-list  li a:hover, .dropdown:hover .nav-link {
+    color: #001242;
+  }
+
+  .nav-list li.dropdown {
+    display: block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #001242;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+/*opçaõ de menu com dropdown*/
 main {
     width: 100%;
     height: auto;
@@ -23,7 +68,7 @@ body{
 header {
     position: relative;
     width: 100%;
-    height: 100px;
+    height: auto;
     /* background-color: forestgreen;   */
     padding-top: 10px;
 }
@@ -31,7 +76,7 @@ header {
 #nav-menu {
     margin: auto;
     width: 98%;
-    height: 80px;
+    height: auto;
     display: flex;
     /* background-color: aqua; */
 }
@@ -130,6 +175,26 @@ header {
 .box-pesquisar:hover .txt-pesquisar {
     width: 230px;
     padding: 0 6px;
+}
+
+
+.nav-item{
+  position: relative;
+  display: inline-block;
+
+    margin: 0px 15px;
+}
+.nav-list ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+}
+.mobile-menu-icon{
+    display: none;
+}
+.mobile-menu{
+    display: none;
 }
 
 /* -------Fim do header--------- */
@@ -510,6 +575,7 @@ form {
     color: #001242;
     border-radius: 3px;
     width: 95%;
+    position: relative;
 }
 
 form .input-field:first-child {
@@ -549,7 +615,7 @@ form .input-field:first-child {
 
 form input[type="submit"] {
     width: 30%;
-    margin-top: 2rem;
+    margin: 2rem 0;
     padding: 0.4rem;
     background-color: #001242;
     cursor: pointer;
@@ -765,4 +831,377 @@ footer{
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
+}
+
+
+@media only screen and (max-width:480px){
+    main{
+        width: 98%;
+    }
+    header{
+        width: 100%;
+
+    }
+    #menu-links, #menu-pesquisar,  #imagem_topo, .img-categoria, #right, #beneficio-leitura, .slide-comentario, .msg-slider{
+        display: none;
+    }
+    .nav-item{
+        display: none;
+        text-align: center;
+        width: 100%;
+    }
+    #nav-menu{
+        margin: 10px;          
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .menu-logo{
+        min-height: 60px;
+        min-width: 80px;
+    }
+    .open{
+        width: 100%;
+        height: 255px;
+        padding: 19px;
+        display: block;
+    }
+    .open img{
+        margin-right: -200px;
+    }
+    .mobile-menu-icon{
+        display: flex;
+        margin: 10px;
+        justify-content: space-evenly;
+    }
+    .mobile-menu-icon img{
+        background-color: #fff;
+    }
+    .mobile-menu ul{
+        margin: auto;
+        padding: 0 1rem 0 1rem;
+    }
+    
+    .mobile-menu ul li{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .mobile-menu ul li a{
+        color: #001242;
+        width: 100%;
+        text-align: center;
+    }
+
+    .mobile-menu .nav-item{
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .open{
+        display: block;
+    }
+
+    #inicio {
+        margin-top: 0%;
+        padding-top: 2px;
+    }
+    .titulos{
+        margin: 10px auto;
+    }
+    #texto{
+        margin: 5px auto;
+        width: 95%;
+    }
+    #texto h1{
+        font-size: 22px;
+        margin: auto;
+        text-align:left;
+        margin-bottom: 15px;
+    }
+    
+    #texto p{
+        margin: 5px auto;
+    }
+
+    .titulos{
+        margin: 20px auto 10px auto;
+        width: 95%;
+    }
+    .titulos h2{
+        font-size: 22px;
+        margin: auto;
+        text-align:left;
+        margin-bottom: 15px;
+    }
+    .txt-categoria{
+        width: 94%;
+        margin-bottom: 50px;
+        height: auto;
+    }
+   
+    .linha-poster {
+        max-height: 200px;
+        margin: 5px;
+    }
+    #article-beneficios{
+        width: 100%;
+        height: auto;
+    }
+    
+    #sequencia-beneficio{
+        width: 100%;
+        height: 450px;
+    }
+    #pub{
+        height: auto;
+        width: 100%;
+    }
+    #pub input{
+        position: relative;
+    }
+    #left{
+        width: 94%;
+    }
+    #pub form, h5{
+        margin: auto;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #pub h3{
+        width: 75%;
+    }
+    form input[type="submit"]{
+        margin-top: 15px;    
+    } 
+
+    footer{
+        width: 100%;
+        padding: 20px;
+    }
+    #footer-top{
+        width: 80%;
+    }
+    #div-esquerda-rodape{
+        width: 100%;
+    }
+
+    #div-esquerda-rodape p{
+        width: 100%;
+    }
+    #div-esquerda-rodape img{
+        min-height: 60px;
+        min-width: 80px;
+    }
+    #div-direita-rodape{
+        width: 20%;
+    }
+    #btn-linguagem{
+        margin: 0;
+        padding: 0;
+    }
+    #opcoes{
+        margin-left: 39.9px;
+        height: 20px;
+    }
+    .divisoes a h6{
+        font-size: 12px;
+    }
+    .divisoes ul li a{
+        font-size: 11px;
+    }
+    #icons{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (min-width: 481px){
+    @media only screen and (max-width: 720px){
+        main{
+            width: 98%;
+        }
+        header{
+            width: 100%;
+    
+        }
+        #menu-links, #menu-pesquisar, .img-categoria, #right, #beneficio-leitura, .slide-comentario, .msg-slider{
+            display: none;
+        }
+        .nav-item{
+            display: none;
+            text-align: center;
+            width: 100%;
+        }
+        #nav-menu{
+            margin: 10px;          
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+        .menu-logo{
+            min-height: 60px;
+            min-width: 80px;
+        }
+        .open{
+            width: 100%;
+            height: 255px;
+            padding: 19px;
+            display: block;
+        }
+        .open img{
+            margin-right: -200px;
+        }
+        .mobile-menu-icon{
+            display: flex;
+            margin: 10px;
+            justify-content: space-evenly;
+        }
+        .mobile-menu-icon img{
+            background-color: #fff;
+        }
+        .mobile-menu ul{
+            margin: auto;
+            padding: 0 1rem 0 1rem;
+        }
+        
+        .mobile-menu ul li{
+            width: 100%;
+            margin: auto;
+            text-align: center;
+        }
+        .mobile-menu ul li a{
+            color: #001242;
+            width: 100%;
+            text-align: center;
+        }
+    
+        .mobile-menu .nav-item{
+            display: block;
+            padding-top: 1.2rem;
+        }
+        .open{
+            display: block;
+        }
+    
+        #inicio {
+            margin-top: 0%;
+            padding-top: 2px;
+            width: 100%;
+        }
+        
+        #imagem_topo{
+            width: 30%;
+            height: 350px;
+            margin: 15px 150px 0px 0px;
+        }
+        #texto{
+            width: 60%;
+        }
+        #texto h1{
+            font-size: 22px;
+            margin: auto;
+            text-align:left;
+            margin-bottom: 15px;
+        }
+        
+        #texto p{
+            margin: 5px auto;
+        }
+    
+        .titulos{
+            margin: 20px auto 10px auto;
+            width: 95%;
+        }
+        .titulos h2{
+            font-size: 22px;
+            margin: auto;
+            text-align:left;
+            margin-bottom: 15px;
+        }
+        .txt-categoria{
+            width: 94%;
+            margin-bottom: 50px;
+            height: auto;
+        }
+       
+        .linha-poster {
+            max-height: 200px;
+            margin: 5px;
+        }
+        #article-beneficios{
+            width: 100%;
+            height: auto;
+        }
+        
+        #sequencia-beneficio{
+            width: 100%;
+            height: 450px;
+        }
+        #pub{
+            height: auto;
+            width: 100%;
+        }
+        #pub input{
+            position: relative;
+        }
+        #left{
+            width: 94%;
+        }
+        #pub form, h5{
+            margin: auto;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        #pub h3{
+            width: 75%;
+        }
+        form input[type="submit"]{
+            margin-top: 15px;    
+        } 
+    
+        footer{
+            width: 100%;
+            padding: 20px;
+        }
+        #footer-top{
+            width: 80%;
+        }
+        #div-esquerda-rodape{
+            width: 100%;
+        }
+    
+        #div-esquerda-rodape p{
+            width: 100%;
+        }
+        #div-esquerda-rodape img{
+            min-height: 60px;
+            min-width: 80px;
+        }
+        #div-direita-rodape{
+            width: 20%;
+        }
+        #btn-linguagem{
+            margin: 0;
+            padding: 0;
+        }
+        #opcoes{
+            margin-left: 39.9px;
+            height: 20px;
+        }
+        .divisoes a h6{
+            font-size: 12px;
+        }
+        .divisoes ul li a{
+            font-size: 11px;
+        }
+        #icons{
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            margin-top: 5px;
+        }
+
+    }
 }

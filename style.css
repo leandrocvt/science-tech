@@ -124,6 +124,7 @@ header {
 
 .txt-pesquisar::placeholder {
     color: #031d63;
+    font-weight: 500;
 }
 
 .box-pesquisar:hover .txt-pesquisar {
@@ -273,6 +274,7 @@ header {
 }
 
 /* Slider Bio */
+
 .linha-slider {
     position: relative;
     width: 100%;
@@ -284,21 +286,24 @@ header {
     display: flex;
     overflow-y: hidden;
     overflow-x: scroll;
-    padding: 20px;
+    padding: 5px 0px;
     clear: left;
+}
+
+.linha-posters a img{
+    width: 200px;
 }
 
 .linha-poster {
     object-fit: contain;
     width: 100%;
     max-height: 250px;
-    margin-right: 10px;
+    margin-right: 2px;
     transition: transform 450ms;
-    margin-right: 15px;
 }
 
 .linha-poster:hover {
-    transform: scale(1.28);
+    transform: scale(1.25);
 }
 
 #scrool-bio::-webkit-scrollbar {

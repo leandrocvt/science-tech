@@ -795,6 +795,8 @@ footer{
     }
     header{
         width: 100%;
+        margin-bottom: 25px;
+
         /* background-color: cadetblue; */
     }
     #menu-logo img{
@@ -821,14 +823,13 @@ footer{
     .mobile-menu-icon{
         display: block;
         margin-top: 10px;
+        margin-left: 75%;    
+
     }
-    
     .mobile-menu-icon button{
         background-color: transparent;
         border: none;
         cursor: pointer;
-        margin-left: 100%;    
-
     }
     .mobile-menu ul{
         display: flex;
@@ -838,20 +839,24 @@ footer{
 
     }
     .mobile-menu.open{
-        width: 120%;
+        width: 140%;
     }
     .mobile-menu ul li{
-        background-color: rgb(247, 254, 255);
+        background-color: #fff;
         width: 100%;
         margin: 0px auto;
         text-align: center;
-        border-bottom: #000 solid 1px;
+        border-bottom: #001242 solid 1px;
     }
     .mobile-menu ul li a{
         color: #001242;
         width: 100%;
         text-align: center;
         font-size: 18px;
+        color: #0094C6;
+    }
+    .mobile-menu ul li:hover{
+        background-color: #001242;
     }
     .mobile-menu .nav-item{
         display: block;
@@ -861,7 +866,6 @@ footer{
     .open{
         display: block;
     }
-
     
     
     
@@ -1007,17 +1011,34 @@ footer{
         margin-top: 5px;
     }
 }
-
+/*--------------------------------------------------------*/
 @media only screen and (min-width: 481px){
     @media only screen and (max-width: 720px){
         main{
-            width: 100%;
+            width: 98%;
         }
         header{
             width: 100%;
-        }.menu-responsivo{
+            margin-bottom: 25px;
+            /* background-color: cadetblue; */
+        }
+        #menu-logo img{
+            width: 140px;
+            height: 140px;
+            background-color: brown;
+        }
+    
+        #menu-links, #menu-pesquisar,  #right, #beneficio-leitura, .slide-comentario, .msg-slider{
+            display: none;
+        }
+        .nav-item{
+            display: none;
+            text-align: center;
+            width: 100%;
+        }
+        .menu-responsivo{
             position: absolute;
-            left: 72%;
+            left: 65%;
         }
         .nav-item{
             display: none;
@@ -1026,7 +1047,7 @@ footer{
             display: block;
             margin-top: 10px;
             margin-left: 75%;    
-
+    
         }
         .mobile-menu-icon button{
             background-color: transparent;
@@ -1038,7 +1059,7 @@ footer{
             flex-direction: column;
             text-align: center;
             height: auto;
-
+    
         }
         .mobile-menu.open{
             width: 140%;
@@ -1068,31 +1089,49 @@ footer{
         .open{
             display: block;
         }
-    
-        #menu-links, #menu-pesquisar,.txt-categoria p, #right, #beneficio-leitura, .slide-comentario, .msg-slider{
-            display: none;
-        }
-    
+        
+        
+        
         #inicio {
+            display: flex;
+            flex-direction: column;
             margin-top: 0%;
             padding-top: 2px;
+            /* background-color: yellow; */
+        }
+        #imagem_topo {
+            width: 90%;
+            height: 480px;
+            margin: auto;
+        }
+        #imagem_topo img{
             width: 100%;
         }
-        
+        .titulos{
+            margin: 10px auto;
+        }
         #texto{
+            margin: 5px auto;
             width: 95%;
-            margin: auto;
-
+    
         }
         #texto h1{
             font-size: 22px;
             margin: auto;
-            text-align:center;
+            text-align:left;
             margin-bottom: 15px;
         }
         
         #texto p{
             margin: 5px auto;
+        }
+        .categorias{
+            /* background-color: red; */
+        }
+        #cor-titulo-humanas{
+            position: absolute;
+            top: -5%;
+            left: 15%;
         }
     
         .titulos{
@@ -1105,18 +1144,15 @@ footer{
             text-align:left;
             margin-bottom: 15px;
         }
-
         .txt-categoria{
             width: 94%;
             margin-bottom: 50px;
             height: auto;
-            margin: auto;
-            padding-right: 0;
         }
-
-        .txt-categoria #cor-titulo-bio{
-            display: flex;
-            flex-direction:row-reverse ;
+        .img-categoria {
+            width: 100%;
+            margin: auto;
+            /* background-color: #008415; */
         }
        
         .linha-poster {
@@ -1138,6 +1174,7 @@ footer{
         }
         #pub input{
             position: relative;
+            width: 100%;
         }
         #left{
             width: 94%;
@@ -1147,8 +1184,11 @@ footer{
             width: 100%;
             margin-bottom: 10px;
         }
+        #pub form .input-field{
+            width: 105%;
+        }
         #pub h3{
-            width: 75%;
+            width: 100%;
         }
         form input[type="submit"]{
             margin-top: 15px;    
@@ -1195,6 +1235,5 @@ footer{
             margin: auto;
             margin-top: 5px;
         }
-
-    }
+}
 }

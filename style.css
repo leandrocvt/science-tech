@@ -707,6 +707,12 @@ footer{
 
 #opcoes{
     margin-left: 25px;
+    background-color: #001242;
+    color: #fff;
+}
+#opcoes option{
+    background-color: #001242;
+    color: #fff;
 }
 
 #btn-linguagem{

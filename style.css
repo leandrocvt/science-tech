@@ -253,10 +253,9 @@ header {
 }
 
 .txt-categoria p {
-    /* background-color: #031d63; */
     margin-top: 20px;
     font-size: 16px;
-    text-align: justify;
+    text-align: left;
 }
 
 .fundo-slider-bio {
@@ -312,7 +311,6 @@ header {
 
 .linha-posters a img{
     width: 200px;
-    border-radius: 40px;
 }
 
 .linha-poster {
@@ -927,7 +925,6 @@ footer{
     .img-categoria {
         width: 100%;
         margin: auto;
-        /* background-color: #008415; */
     }
    
     .linha-poster {

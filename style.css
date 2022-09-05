@@ -12,7 +12,6 @@
 main {
     width: 100%;
     height: auto;
-    /* background-color: #ccc; */
 }
 
 body{
@@ -23,7 +22,6 @@ header {
     position: relative;
     width: 100%;
     height: auto;
-    /* background-color: forestgreen;   */
     padding-top: 10px;
 }
 
@@ -32,18 +30,15 @@ header {
     width: 98%;
     height: auto;
     display: flex;
-    /* background-color: aqua; */
 }
 
 .menu-logo {
     width: 15%;
     height: 80px;
-    /* background-color: blueviolet; */
 }
 
 .menu-logo img {
     width: 100%;
-    /* background-color: #ccc;   */
     height: 100%;
     display: flex;
     margin: auto;
@@ -53,7 +48,6 @@ header {
     width: 55%;
     display: flex;
     justify-content: space-evenly;
-    /* background-color: chocolate; */
 }
 
 #menu-links ul {
@@ -61,7 +55,6 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* background-color: #fff; */
 }
 
 #menu-links li a {
@@ -80,7 +73,6 @@ header {
     width: 30%;
     display: flex;
     align-items: center;
-    /* background-color: coral; */
 }
 
 .box-pesquisar {
@@ -149,22 +141,18 @@ header {
 .mobile-menu{
     display: none;
 }
-
 /* -------Fim do header--------- */
-/* --------Começo da section inicio ---------- */
 #inicio {
     display: flex;
     width: 100%;
     height: auto;
     padding: 8px;
-    /* background-color: #001242; */
 }
 
 #texto {
     display: block;
     width: 55%;
     padding: 0% 5% 0% 2%; 
-    /* background-color: rgb(192, 216, 86); */
     height: auto;
     margin-top: 80px;
 }
@@ -180,7 +168,6 @@ header {
 }
 
 #imagem_topo {
-    /* background-color: aqua; */
     width: 45%;
     height: auto;
     display: flex;
@@ -188,25 +175,17 @@ header {
 
 #imagem_topo img {
     margin-left: 10px;
-    /* background-color: #000; */
 }
-
-/* ---------Fim da section inicio--------- */
-/* ------------------- */
-
 /* Inicio Categorias */
-
 .titulos {
     width: 100%;
     display: flex;
     align-items: center;
-    /* background-color: #00420b; */
     margin: 80px 0px;
 }
 
 .titulos h2 {
     margin: auto;
-    /* background-color: #fff; */
     font-size: 30px;
     color: #001242;
     border-bottom: 1px solid #001242;
@@ -217,8 +196,6 @@ header {
 .categorias {
     position: relative;
     width: 100%;
-    /* background-color: brown; */
-    /* padding: 0% 5% 0% 3.5%; */
     margin-bottom: 50px;
 }
 
@@ -226,7 +203,6 @@ header {
     width: 50%;
     display: block;
     float: left;
-    /* background-color: rgb(172, 172, 172); */
     height: 400px;
     padding: 0 30px;
 }
@@ -272,7 +248,6 @@ header {
 
 .img-categoria {
     width: 50%;
-    /* background-color: #bcd100; */
     display: flex;
     justify-content: center;
     float: left;
@@ -282,24 +257,15 @@ header {
 .img-categoria img {
     width: 400px;
     height: 400px;
-    /* background-color: coral; */
 }
 
 
 .categorias article {
     width: 100%;
     clear: left;
-    /* background-color: #00420b; */
 }
 
 /* Slider Bio */
-
-.linha-slider {
-    position: relative;
-    width: 100%;
-    color: white;
-    /* background-color: chartreuse; */
-}
 
 .linha-posters {
     display: flex;
@@ -311,6 +277,10 @@ header {
 
 .linha-posters a img{
     width: 200px;
+}
+
+.linha-poster a:first-child{
+
 }
 
 .linha-poster {
@@ -400,7 +370,6 @@ header {
     width: 100%;
     height: auto;
     display: flex;
-    /* background-color: brown; */
     margin-bottom: 50px;
 }
 
@@ -408,13 +377,11 @@ header {
     width: 50%;
     height: auto;
     margin: auto;
-    /* background-color: aqua; */
 }
 
 #sequencia-beneficio {
     width: 50%;
     height: auto;
-    /* background-color: rgb(0, 48, 48); */
 }
 
 #conteudo-beneficio {
@@ -423,12 +390,10 @@ header {
     height: auto;
     margin-top: 20px;
     margin-bottom: 20px;
-    /* background-color: #025939; */
 }
 
 #div-img {
     width: 40%;
-    /* background-color: #001242; */
 }
 
 #div-img img {
@@ -442,7 +407,6 @@ header {
     background-color: #001242;
     top: 125px;
     color: #fff;
-    /* padding: 10px; */
 }
 
 #texto-beneficio h4 {
@@ -456,14 +420,12 @@ header {
     text-align: justify;
     font-size: 16px;
     margin: 0px 20px 20px 20px;
-    /* background-color: violet; */
 }
 
 #img-beneficios {
     margin: auto;
     width: 90%;
     height: 100%;
-    /* background-color: #008415; */
 }
 
 #img-beneficios img {
@@ -478,13 +440,11 @@ header {
     height: auto;
     display: flex;
     justify-content: space-evenly;
-    /* background-color: #8C1F28; */
 }
 
 #left {
     width: 50%;
     height: 500px;
-    /* background-color: cyan; */
     display: flex;
     flex-direction: column;
     padding: 25px;
@@ -513,7 +473,6 @@ form {
     height: 180px;
     display: flex;
     flex-direction: column;
-    /* background-color: #1DA0CD; */
 }
 
 .input-field {
@@ -602,7 +561,6 @@ form input[type="submit"]:hover {
     width: 100%;
     height: auto;
     margin-bottom: 80px;
-    /* background-color: #008415; */
 }
 
 .slide-comentario{
@@ -610,7 +568,6 @@ form input[type="submit"]:hover {
     height: 400px;
     overflow: hidden;
     transition: all 0.4s;
-    /* background-color: #000; */
     margin: auto;
     
 }
@@ -639,7 +596,6 @@ form input[type="submit"]:hover {
     cursor: pointer;
     transition: all 0.4s;
     font-size: 1.7em;
-    /* background-color: #008415; */
 }
 
 .btn:hover{
@@ -697,26 +653,22 @@ footer{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    /* background-color: #96ac4a; */
     border-bottom: 1px solid #fff;
 }
 
 #div-esquerda-rodape {
     width: 30%;
     height: 100%;
-    /* background-color: rgb(85, 36, 36); */
 }
 #div-esquerda-rodape img{
     width: 40%;
     height: 40%;
-    /* background-color: rgb(85, 36, 36); */
 }
 
 #div-esquerda-rodape p{
     color: #ccc;
     font-size: 12px;
     margin-bottom: 10px;
-    /* background-color: #000; */
 }
 
 #div-direita-rodape{
@@ -737,7 +689,6 @@ footer{
 #btn-linguagem{
     width: 150px;
     display: flex;
-    /* background-color: #001242; */
     border: 1px solid #fff;
     border-radius: 5px;
     padding: 5px;
@@ -753,14 +704,12 @@ footer{
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
-    /* background-color: #022a80; */
 }
 
 .divisoes{
     width: 25%;
     height: 100%;
     padding: 10px;
-    /* background-color: #4a51ac; */
 }
 
 .divisoes h6{
@@ -772,7 +721,6 @@ footer{
 .divisoes a{
     font-size: 14px;
     color: #fff;
-    /* background-color: #002DA5; */
 }
 
 .divisoes ul li{
@@ -795,7 +743,6 @@ footer{
         width: 100%;
         margin-bottom: 25px;
 
-        /* background-color: cadetblue; */
     }
     #menu-logo img{
         width: 140px;
@@ -872,7 +819,6 @@ footer{
         flex-direction: column;
         margin-top: 0%;
         padding-top: 2px;
-        /* background-color: yellow; */
     }
     #imagem_topo {
         width: 90%;
@@ -897,9 +843,6 @@ footer{
     
     #texto p{
         margin: 5px auto;
-    }
-    .categorias{
-        /* background-color: red; */
     }
     #cor-titulo-humanas{
         position: absolute;
@@ -1017,7 +960,6 @@ footer{
         header{
             width: 100%;
             margin-bottom: 25px;
-            /* background-color: cadetblue; */
         }
         #menu-logo img{
             width: 140px;
@@ -1094,7 +1036,6 @@ footer{
             flex-direction: column;
             margin-top: 0%;
             padding-top: 2px;
-            /* background-color: yellow; */
         }
         #imagem_topo {
             width: 90%;
@@ -1122,9 +1063,6 @@ footer{
         #texto p{
             margin: 5px auto;
         }
-        .categorias{
-            /* background-color: red; */
-        }
         #cor-titulo-humanas{
             position: absolute;
             top: -5%;
@@ -1149,7 +1087,6 @@ footer{
         .img-categoria {
             width: 100%;
             margin: auto;
-            /* background-color: #008415; */
         }
        
         .linha-poster {
